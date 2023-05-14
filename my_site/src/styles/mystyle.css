@@ -1,0 +1,150 @@
+
+
+.AuthorLib {
+    border-color: #282c34;
+    border-width: 1;
+    padding: 10;
+    margin-bottom: 5;
+    border-radius: 5;
+}
+
+.NAMEOFSITE {
+    margin: 30px;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.Paragraph {
+    font-style: italic;
+}
+
+.USER {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 750px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.5s ease;
+}
+
+.USER:hover {
+    box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* .USERLIST {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+} */
+
+.USERLIST > .USER {
+    flex-shrink: 0;
+}
+
+.USERLISTNAME {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.POSTCARD {
+    margin: 30px auto;
+    border: 1px solid #ababab;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0);
+    transition: box-shadow 0.2s ease;
+    background-color: #3d4149;
+    width: 700px;
+}
+
+.POSTCARD:hover {
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+.NAVLIST {
+    text-align: left;
+    margin: 0;
+}
+
+.NAVLIST li {
+    display: inline;
+    list-style-type: none;
+    padding: 2px 10px 2px 10px;
+    border-left: 2px solid gray;
+}
+
+.NAVLIST li:first-child {
+    border-left: none;
+    padding-right: 0px;
+}
+
+.NAVLIST  a:first-child:hover {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: green;
+}
+
+.NAVLIST a {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: background-color 0.4s ease
+}
+
+.NAVLIST li:not(:first-child) a:hover {
+    background-color: gray;
+}
+
+
+.HEADERandNAV {
+    background-color: #3d4149;/* #282c34 */
+    padding-bottom: 18px;
+    margin: 0px;
+    border-bottom: 3px solid darkslategray;
+    margin-bottom: 80px;
+    padding-top: 18px;
+}
+
+.NAMEOFSITE {
+    margin-top: 0;
+    font-size: 20px;
+    color: greenyellow;
+    font-style: italic;
+}
+
+* {
+    font-family: 'Lucida Console' !important;
+    color: greenyellow;
+}
+
+.POSTPAGE_CONTENT {
+    background-color: #3d4149;
+    border-radius: 15px;
+    width: 70vw;
+    margin: auto;
+    padding: 80px;
+    /* font-family: 'Lucida Console'; */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+  }
+#components-form-demo-normal-login .login-form-forgot {
+    float: right;
+}
+ #components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+    float: left;
+}
+#components-form-demo-normal-login .login-form-button {
+    width: 100%;
+}
